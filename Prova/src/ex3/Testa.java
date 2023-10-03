@@ -4,7 +4,7 @@ public class Testa {
         System.out.println(veiculo.toString());
         System.out.println("Quantidade de Rodas: " + veiculo.QtdRodas());
     }
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Carro objCarro = new Carro("LaFerrari", "Ferrari", "Vermelho Elegante", 963, "Coupé");
         Mostrar(objCarro);
 
